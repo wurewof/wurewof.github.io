@@ -208,7 +208,7 @@ header .navbar a:hover{
 
 
 .about .row .content p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#666;
     padding: .5rem 0;
     padding-top: 1rem;
@@ -264,5 +264,147 @@ header .navbar a:hover{
     border-radius: 2rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
     height: 8rem;
-   
+}
+
+.portofolio{
+    background-color:#ffc8fd;
+}
+
+.portofolio .box-conta{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.portofolio .box-conta .boxs{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.portofolio .box-conta .boxs .year{
+    font-size: 1.3rem;
+    background: var(--pink);
+    color: #fff;
+    border-radius: 1.5rem;
+    padding: .5rem 2.5rem;
+}
+
+.portofolio .box-conta .boxs .year:hover{
+    background-color: #f3a0b3;
+}
+
+.portofolio .box-conta .boxs h3{
+    font-size: 2rem;
+    color:#333;
+    padding-top: 1.5rem;
+}
+
+.portofolio .box-conta .boxs p{
+    font-size: 1.5rem;
+    color:#333;
+    padding: 1rem 0;
+    text-align: justify;
+}
+
+.portofolio .box-conta .boxs img{
+   position: absolute;
+    height: 5rem;
+    width: 5rem;
+    top: -1.5rem;
+    left: -2.5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.portofolio .box-conta .boxs li{
+    font-size: 1.5rem;
+    color:#333;
+    padding: 1rem 0;
+    text-align: justify;
+}
+
+.review{
+    background-color: #ffd7fe;
+}
+
+.review .sub-heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.review .box-contain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.review .box-contain .box1{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: 0.5rem;
+    padding: 3rem 2rem;
+    position:relative;
+    background-color: #fde7ed;
+}
+
+.review .box-contain .box1:hover{
+    background-color:#f3c5db ;
+}
+
+
+.review .box-contain .box1 .fa-quote-left{
+    font-size: 4rem;
+    color: #807a7a;
+}
+
+.review .box-contain .box1 .fa-quote-right{
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    font-size: 4rem;
+    color: #807a7a;
+}
+
+.review .box-contain .box1 .stars i{
+    color: var(--pink);
+    font-size: 2rem;
+}
+    
+
+.review .box-contain .box1 p{
+    color:#999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+
+
+.review .box-contain .box1 .student{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.review .box-contain .box1 .student img{ 
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.review .box-contain .box1 .student .student-info h3{
+    font-size: 2rem;
+    color:#333;
+}
+
+.review .box-contain .box1 .student .student-info span{
+    font-size: 1.5rem;
+    color:#999;
 }
