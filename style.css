@@ -491,8 +491,9 @@ header .navbar a:hover{
     font-size: 4rem;
     color: #333;
     width:100%;
-    padding: 1rem 5rem;
-    
+    padding: 1rem;
+    padding-left: 5rem; 
+    padding-right: 2rem;   
 }
 
 .contact .pic-container img{
