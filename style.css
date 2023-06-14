@@ -18,9 +18,6 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow-x: hidden;
-    max-width:1000rem; 
-    margin: 0 auto;
-    position: relative;
 }
 
 
@@ -64,6 +61,11 @@ header .logo{
     padding: 0;
 }
 
+header .logo:hover{
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: 4rem;
+}
+
 header .logo img{
     width:100%;
 }
@@ -77,6 +79,9 @@ header .navbar a{
 
 header .navbar a:hover{
     color:var(--pink);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: 3rem;
+    background-color: #fff4f7;
 }
 
 
@@ -117,8 +122,8 @@ header .navbar a:hover{
     width: 7rem;
     position: relative;
     top: 30px;
+    
 }
-
 
 .home .content .name{
     font-size: 8rem;
@@ -470,14 +475,19 @@ header .navbar a:hover{
     display: inline-block;
     margin-top: .1rem;
     border-radius: 1rem;
-    background: #4D5566;
-    color: #fff;
+   
+    color: #ffffff;
     padding: .5rem 0.5rem;
     cursor: pointer;
     font-size: 1rem;
+    background: #4D5566;;
 }
+
+
 .contact .rows .box-cont .btn-contact:hover{
     background:var(--pink);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .2);
+    color: #fff;
 }
 
 
