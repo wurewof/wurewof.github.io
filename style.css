@@ -18,7 +18,7 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow-x: hidden;
-    max-width:max-content; 
+    max-width:1000rem; 
     margin: 0 auto;
     position: relative;
 }
