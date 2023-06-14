@@ -149,6 +149,7 @@ header .navbar a:hover{
 
 .about{
     background-color: #ffc8fd;
+    background:  radial-gradient(circle at top left,#fcf2f9, #ffc8fd );   
    
 }
 
@@ -504,6 +505,7 @@ header .navbar a:hover{
 
 .contact{
     background-color:#ffc8fd;
+    background: linear-gradient(to right,#fff, rgb(243, 197, 205), #ebd2e4, #ffb8e4, #ffd7fe, #faf5f8);   
 }
 
 
