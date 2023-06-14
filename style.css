@@ -18,6 +18,9 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow-x: hidden;
+    max-width:none;
+    margin: 0 auto;
+    position: relative;
 }
 
 
@@ -338,6 +341,7 @@ header .navbar a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+ 
 }
 
 .review .box-contain .box1{
